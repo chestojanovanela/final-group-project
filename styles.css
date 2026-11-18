@@ -4,3 +4,7 @@
 
 /* Group 6 refinements */
 .picture-pair{font-size:clamp(3.5rem,12vw,6rem);gap:clamp(.5rem,3vw,2rem);align-items:center}.picture-pair b{font-size:clamp(1.25rem,4vw,2rem)}.credit-card{margin-top:20px;padding:24px}.credit-card h3{margin:8px 0}.credit-card button{margin-top:10px}.credit-card p{line-height:1.6}.results-note hr{border:0;border-top:1px solid #e1e4ea;margin:20px 0}.results-note h3{margin:0 0 8px}.results-note a{color:inherit;text-decoration:underline}.hidden{display:none!important}
+
+/* Expanded results: keep feedback scannable across desktop and mobile. */
+.results-note .feedback-title{margin:8px 0 10px}.results-note p{line-height:1.7;margin:10px 0 0}.results-note h4{font-size:15px;margin:22px 0 6px;color:var(--ink)}.feedback-comparison{background:#fff;border:1px solid #e1e5f1;border-radius:12px;padding:16px 18px;margin:18px 0}.feedback-comparison h4{margin:0}.format-comparison{display:grid;gap:8px;margin-top:13px}.format-comparison-row{display:flex;align-items:baseline;justify-content:space-between;gap:12px;padding:8px 0;border-bottom:1px solid #eef0f5;font-size:13px}.format-comparison-row:last-child{border:0}.format-comparison-row span{color:#586681;text-align:right}.results-note .research-comparison{font-weight:700;color:#45578b}.results-note .fine{font-size:12px}
+@media(max-width:500px){.feedback-comparison{padding:12px}.format-comparison-row{font-size:12px;gap:8px}}

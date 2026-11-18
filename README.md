@@ -1,6 +1,6 @@
 # StudyLab | Group 6 • PSYC 402
 
-A static GitHub Pages experiment about learning preferences and immediate cued recall. Revised November 2026 from the original StudyLab app. This project is the last activity in Chain B (Teams 4 → 5 → 6 → Qualtrics).
+A static GitHub Pages experiment about learning preferences and immediate cued recall. Revised November 2026 from the original StudyLab app; v3 adds descriptive, individualized feedback. This project is the last activity in Chain B (Teams 4 → 5 → 6 → Qualtrics).
 
 ## Deploy / replace files
 
@@ -59,3 +59,6 @@ Sources:
 ## Suggested analysis
 
 Compute mean number correct out of six for each format; plot within-person scores or condition means with uncertainty. Compare preferred/predicted format vs highest-scoring format, reporting ties separately; a preference-by-modality interaction would be necessary for a stronger test of learning-style matching. Summarize ease, clarity and engagement ratings, and report audio-fallback exclusions/sensitivity analysis. Report that each participant studied different lists in different orders. Treat small-sample results as exploratory. Use only actual collected, anonymous data.
+
+## Version 3: expanded participant feedback
+The results page now describes overall accuracy (including whether more, fewer, or exactly half of the items were recalled), the spread of scores, each format relative to the participant's own mean, predicted versus observed performance, picture-versus-reading performance relative to the research prediction, and a tailored study suggestion. It explicitly distinguishes personal averages from group norms; no participant dataset or class average is available, and no normative cutoff or percentile is fabricated. All results are descriptive. Additional research links: https://pubmed.ncbi.nlm.nih.gov/30756412/ (paired-item picture memory), https://pubmed.ncbi.nlm.nih.gov/38360549/ (distinctiveness), https://pmc.ncbi.nlm.nih.gov/articles/PMC5780548/ (study strategies). The task, stimuli, scoring, CSV columns, team/chain settings, and Qualtrics redirect are unchanged; the summary app_version is now group6-v3-feedback. Test the new results screen on the deployed site before recruitment.
